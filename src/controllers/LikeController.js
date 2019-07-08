@@ -7,7 +7,7 @@ module.exports = {
         await post.save()
 
         // informs all connected users of the new data
-        req.io.emmit('like', post)
+        req.io.emit('like', post)
 
         return res.json(post)
     }
