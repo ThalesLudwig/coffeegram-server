@@ -16,7 +16,12 @@ Just login with your [Mongo Atlas](https://www.mongodb.com/cloud/atlas) account 
 
 ## Project setup
 ```
-yarn dev
+$ yarn install
+```
+Downloads dependencies.
+
+```
+$ yarn dev
 ```
 Runs the app in the development mode on port `3333`.<br>
 You will also see any lint errors in the console.
